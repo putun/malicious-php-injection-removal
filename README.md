@@ -24,6 +24,8 @@ Copy its beginning and ending to the injectedCodeBeginning and injectedCodeEndin
 
 4. After you finish with editing this script, run it from your server via sudo access. 
 
+(for example in the linux command line - try putty if you don't have any idea how to - "php5 /var/www/pathtothescript/viruscleaner.php")
+
 ### Notes 
 You should start <?php and finish with ?> for exact removal. 
 
