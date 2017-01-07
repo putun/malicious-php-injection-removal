@@ -12,17 +12,17 @@ Used for sending brute force admin login requests to other cpanels and wordpress
 
 ## Solution
 
-1. Start with getting all subfolders in the infected main directory.
+1- Start with getting all subfolders in the infected main directory.
 
 (You can run "find . -type d > subdirectories.txt" at linux command line, convert the output text in to comma separeted array.)
 
-2. Then paste these sub directories in the $subfolders array.
+2- Then paste these sub directories in the $subfolders array.
 
-3. Open a malicious code contained file. 
+3- Open a malicious code contained file. 
 
 Copy its beginning and ending to the injectedCodeBeginning and injectedCodeEnding variables. 
 
-4. After you finish with editing this script, run it from your server via sudo access. 
+4- After you finish with editing this script, run it from your server via sudo access. 
 
 (for example in the linux command line - try putty if you don't have any idea how to - "php5 /var/www/pathtothescript/viruscleaner.php")
 
